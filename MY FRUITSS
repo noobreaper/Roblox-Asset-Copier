@@ -1,0 +1,46 @@
+$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
+$session.UserAgent = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+$session.Cookies.Add((New-Object System.Net.Cookie("GuestData", "UserID=-444217577", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("RBXcb", "RBXViralAcquisition=true&RBXSource=true&GoogleAnalytics=true", "/", "www.roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("__utmc", "200924205", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("RBXSource", "rbx_acquisition_time=08/25/2024 14:35:52&rbx_acquisition_referrer=https://create.roblox.com/&rbx_medium=Social&rbx_source=create.roblox.com&rbx_campaign=&rbx_adgroup=&rbx_keyword=&rbx_matchtype=&rbx_send_info=0", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("RBXEventTrackerV2", "CreateDate=08/26/2024 11:11:19&rbxid=7115400949&browserid=1720225737660018", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("__stripe_mid", "d4858a67-da24-4626-9f80-5b55509f8bcf3a681c", "/", ".www.roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("_gid", "GA1.2.713054347.1725467635", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("_ga_F8VP9T1NT3", "GS1.1.1725474816.5.1.1725474833.0.0.0", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("_ga_9HRYHVCY79", "GS1.1.1725475783.2.1.1725475816.0.0.0", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("_ga", "GA1.1.106510724.1720591721", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("__utmz", "200924205.1725478549.20.5.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("ak_bmsc", "F64DDE0AF8E94C0CA5E49EA6A7366678~000000000000000000000000000000~YAAQ9zovFxj5gZWRAQAAizU1vxkLIFpZn5Dl5YQCcXGOmkYBP2aRSnpoZHo4u8Dih+yWa/bC7OsffNWfQ2uF8fKQHAW7HbudLzc0Xw7F83rZbZXF+eVEpVuijgQ1FknraMAT2ebCfhw/ujB/gHamRNwH/HmaneHWnW5IQ0G3j45jA0/4sYSL9n6Y8n9ITUb5X0BRpOdfNL4bYbshWgBbICrYAhz1/nSEb2W6RTaplhUSa/Di+QUQWPshgQ3U7VGNfdz7qaXm5JrUajEfs1L3SXh0QBSbefzSK8zq8GpCup7h1VKtZIvP8TruQucoANaU0weNYbDiRx0SX5uaT0h+OBeNjvxVse776eWCM5obkF4ccvuxOok1cqMFT9Km6Y9RlpaXebSz5la4dIthpMjMvaN0anptIHtQl/sN75lWeScqiOF1", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("rbx-ip2", "1", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("__utma", "200924205.570426794.1720225753.1725478549.1725493591.21", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("__utmb", "200924205.0.10.1725493591", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("bm_mi", "774205A2A983710EBFC2B7B825ED6F2B~YAAQ9zovFy+EgpWRAQAAE8Zuvxmm9H9HvK5TXXOd8k2sRqku6c5+v03Wu+Kwim6QPt1GjbkN0e9P/dwF39PV0BuboMrTomzdh3bTxTNDY1uFcI5KiCjPRea4YC+8WS9AlOlcTe118Jk+EYdO30U6AZygooGYf0Ru1g++BJAyPM0s8Rt+Ssh/88fZLtyaerD6gCn0bmsdqx7WMqEOqrjxQYbJ4NG1fIbnJpQ0UORWQcZf197cn6hkHtG0pWaqltGel9oC/yYJ/41VGjIQasHOFD3FfkvemiuSTmo7Gqpp3dLqxbn3Lz+ieKvvugQtjKtdWdWleFdNsrP7Hjj8e6Vwn9R8aTC5MtVGrRKiof+HYaKvpmV/3DAgP0qAqTnBBoY=~1", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("UnifiedLoggerSession", "CreatorHub%3D%7B%22sessionId%22%3A%22d34d125b-ff8f-4ae6-bd71-80f5618b181c%22%2C%22lastActivity%22%3A1725493595248%7D", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("_ga_BK4ZY0C59K", "GS1.1.1725493595.8.1.1725493596.0.0.0", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("RBXImageCache", "timg=M2XvuMkZU1SWXJOa_15zMbRR97B242-pL3Y9i6C9mwzcDIt8qgP0bec8ld9Ti541yPwzFm3AS4L-d1iqm1gFyhMT5dClsmvsyY_zOXWPR80_MEQ5tdOLAPUGHfgAYufFojm9Cy1uXuSnnDOALxn3tLv-yCouXVXMAMa34GNyqRGa3LGcQTvmZUS9qkTxdZYj3x4bRJXYM_lgOKgGZ65llg", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie(".ROBLOSECURITY", "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_B28B16B4422C00EF895FA717E4656DBB24688E414453F73C33F5AB048EFB3260854FF98CEEF2CF0902DF4C8184DDBEB101C6619BA9766B4EE0C8134FA4390ADC3D310ECB562B2C3BBB752DC1D678C7BA1FA7E1FCA549760421ACA055CF0ACEEC82EF573B5D0631148D722B58011AB0EFC65BFF81499559E11F289E7D4529BBF361B00DE35F823D6FC9B9E658947A93AE5510E6998789A5433C5DA1F299B7D507F35F932DFBC81A9C8644757DD3303CC356D267D9ED37652435555810CEC338A0C8797C8E8ADC9C2AE71C63AC38244F16F096AA1578D8514C82098531344D19BDDD0DD2AEFA80B66C46DB96AF754CD28EDC4FE43071A3662BAA038CA7E4170B2595C140B5DC6BA609AFEDAB663C4DA9D9D2596926BA306C8BB3A7B39BFBDEC9ECA26D55715DD671BDC946B60900427914516E98A235502E64F4CAB7159ADF6D05217C3BBD2AF6935D1B0C4A17178F4A875E1BEABE9FF762CF393347BD0779E20BF35F87D2476264FA1FC4B1FF3680F1568B3254370FED492C844F93FB81C069452FD93DA87D2021EAFEEFFBF6F18F6B0E2DB653574F7D22F0E2064735DC282D5A1D9940992006670BE06B34B920F75D78378BAAD70D01CEEBB59075B3C653C87768EE286DF494159CD02DC0303F88DE31DF9719F542CA65761F2754E62BC793706EBD02FA99F49F6FF18AA22B8C80C9EF72703C58DF004B479C834C3C76E44A6595F581C710396E6A5530EE0C764489D6902C2AF3A6DEF1BFF43E7539573A75705E7F53F0077AD3CBEF1D6A96566E281B8E61BA6942F6C233DD980930AE331742CDA3E1CA75C452442BD1FA652950A643339204A5A49A97E9F52C59D9524322F854928E7E01F20A9BCBE0E5E0915645F3BEE5842DE6196DACB8B8C3A4FDFD1C451901488F5A2EA2754BB56D74DDB5AF6C1F565CF0F7835F0754F1C45CAC669F69B064DD7281AB85512CFCA7915F8F9D87D8F0403E", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("rbxas", "91095f44cc7f7ec069fc552222ea62fe6e8117348148344b6b0783e3f0a521ef", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("RBXSessionTracker", "sessionid=22253d5b-0067-4702-9b5d-73b75530d624", "/", ".roblox.com")))
+$session.Cookies.Add((New-Object System.Net.Cookie("bm_sv", "FC0A5FF08B7793EBBB760ACF741329A2~YAAQ9zovF570gpWRAQAA0NiJvxn3+EXtYNsI1tJUct2KmUO9k2GdqohpHYX5ocFU6Zqt6FAbiXg+j6dCmPChSJLYHPYdR1bKGn3gKDVIp+SnlrZR7Xw1uLbxuWfcGr/OHeZ2DXYo2Vl0b4SYLXDckSBxp3ZoGSAyITJuaemQ8d2JtcWD2mGfdaNYHxHZDeIFH3NbfLXQi9gi2FnxNGOS4y0KQim44mIhjw2+7wqcjiVbqaK4BGpDgxuRYC/Cy/w6lA==~1", "/", ".roblox.com")))
+Invoke-WebRequest -UseBasicParsing -Uri "https://www.roblox.com/games/2753915549/Blox-Fruits" `
+-WebSession $session `
+-Headers @{
+"authority"="www.roblox.com"
+  "method"="GET"
+  "path"="/games/2753915549/Blox-Fruits"
+  "scheme"="https"
+  "accept"="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+  "accept-encoding"="gzip, deflate, br, zstd"
+  "accept-language"="en-US,en;q=0.9,es;q=0.8"
+  "cache-control"="max-age=0"
+  "priority"="u=0, i"
+  "sec-ch-ua"="`"Chromium`";v=`"128`", `"Not;A=Brand`";v=`"24`", `"Google Chrome`";v=`"128`""
+  "sec-ch-ua-mobile"="?1"
+  "sec-ch-ua-platform"="`"Android`""
+  "sec-fetch-dest"="document"
+  "sec-fetch-mode"="navigate"
+  "sec-fetch-site"="same-origin"
+  "sec-fetch-user"="?1"
+  "upgrade-insecure-requests"="1"
+}
